@@ -10,7 +10,7 @@
 
 const csvToJson = require('csvtojson');
 const fs = require('fs');
-const csvFilePath = 'movies.csv';
+const csvFilePath = 'movies_new.csv';
 
 function isNumeric(n) {
     return !isNaN(parseFloat(n)) && isFinite(n);
